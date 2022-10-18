@@ -4,7 +4,7 @@ import Filters from "./components/Filters/Filters"
 import Pagination from "./components/Pagination/Pagination"
 import Cards from "./components/Cards/Cards"
 import Search from "./components/Search/Search"
-import Navbar from "./components/NavBar/navbar"
+
 
 
 import "bootstrap/dist/js/bootstrap"
@@ -30,7 +30,7 @@ function App() {
 
   return (
     <div className="App">
-      <Navbar/>
+      <h1 className="d-flex justify-content-center mb-4 my-4">Rick And Morty</h1>
       
 
       <Search setPageNumber={setPageNumber} setSearch={setSearch} />
